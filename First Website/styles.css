@@ -1,12 +1,25 @@
 /* Override a tag's presets by entering its name */
+@font-face {
+    /* Font family is what we are naming the font (like a variable name) */
+    font-family: Sketch ;
+     /* src is the location of the font */
+
+    src: url(Fonts/Sketch\ Bego.otf);
+}
+
+
+
+
 body{
     background-color: navy;
+    font-family: Arial, Calibri, Trebuchet;
 }
 p{
-    color: white;
+    color: rgb(217, 30, 54);
 }
 h1{
-    color: white ;
+    color: rgb(236, 87, 102) ;
+    font-family: Sketch;
 }
 h5{
     color: white ;
